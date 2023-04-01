@@ -309,7 +309,7 @@ video{
 }
 
 /* contact */
-.contact{
+.main__section--flex{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -510,10 +510,10 @@ video{
     }
 
 /* contact */
-.contact{
+.main__section--flex{
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .contact__input{
