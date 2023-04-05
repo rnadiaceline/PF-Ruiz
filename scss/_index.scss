@@ -1,0 +1,88 @@
+.header{
+    display: none;
+}
+
+header{
+    img{
+        width: 100%;
+    }
+    h1{
+        border-top: solid map-get($map: $paleta, $key: tres) 2px;
+        background-color: map-get($map: $paleta, $key: uno);
+        color: map-get($map: $paleta, $key: dos);
+        font-size: 1.2em;
+        padding: 20px 5px;
+        margin-bottom: 20px;
+    }
+}
+
+.section__title--change-size{
+    font-size: 1.8em;
+}
+
+.section__icono--flex{
+    padding: 10px 30px 5px 30px;
+    display: flex;
+    justify-content: space-around;
+    figure{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.section__icono--tamano{
+    padding: 0 5px;
+    img{
+        width: 15vw;
+    }
+}
+
+video{
+    width: 80vw;
+}
+
+.section__multimedia--tamano{
+    width: 70vw;
+    padding-bottom: 10px;
+}
+
+.section__multimedia--flex{
+    display: flex;
+    justify-content: center;
+}
+
+.section__proyectos{
+    background-color: map-get($map: $paleta, $key: cinco);
+    padding: 25px;
+    margin-top: 10px;
+    article{
+        background-color: map-get($map: $paleta, $key: ocho);
+        padding-top: 5px;
+        border-radius: 5px;
+    }
+    h2{
+        padding-bottom: 15px;
+        color: map-get($map: $paleta, $key: dos);
+    }
+    p{
+        text-align: center;
+        color: map-get($map: $paleta, $key: nueve);
+        padding: 15px;
+        border-top: solid map-get($map: $paleta, $key: cinco) 1px;
+    }
+}
+
+.section__cursos{
+    padding: 15px 10px;
+}
+
+.cursos__button{
+    background-color: map-get($map: $paleta, $key: diez);
+    color: map-get($map: $paleta, $key: dos);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 2px 5px;
+    border: none;
+}

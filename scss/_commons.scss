@@ -1,0 +1,46 @@
+ *{
+        font-family: $mainFont;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+//texts
+h1{
+    @include headings($h1Size, $fW700, $alignCenter);
+    padding-top: 20px;
+}
+
+h2{
+    @include headings($h2Size, $fW600, $alignCenter);
+}
+
+h3{
+    @include headings($h3Size, $fW500, $alignCenter);
+}
+
+p{
+    font-size: $pSize;
+    text-align: center;
+    padding: 5px 30px;
+}
+
+.text--align, .text--center{
+    text-align: center;
+}
+
+.text--font-600{
+    font-weight: 600;
+}
+
+//images
+.section__images--flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__images--tamano{
+    width: 90vw;
+    padding-bottom: 10px;
+}

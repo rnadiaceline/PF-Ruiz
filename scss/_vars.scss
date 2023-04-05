@@ -1,0 +1,43 @@
+//fonts
+$mainFont:'Montserrat', sans-serif;
+    //Sizes
+$h1Size: 1.5em;
+$h2Size: 1.2em;
+$h3Size: 1em;
+$pSize: .9em;
+    //Aligns
+$alignCenter: center;
+    //Weight
+$fW400: 400;
+$fW500: 500;
+$fW600: 600;
+$fW700: 700;
+$fW800: 800;
+
+//colors
+$paleta:(
+    'uno': rgb(0, 0, 0),
+    'dos': rgb(255, 255, 255),
+    'tres': rgb(134, 18, 18),
+    'cuatro': rgb(78, 10, 10),
+    'cinco': rgb(90, 21, 21),
+    'seis': rgb(204, 89, 89),
+    'siete': rgba(0, 0, 0, 0.3),
+    'ocho': rgba(204, 89, 89, .3),
+    'nueve': rgba(255, 255, 255, .8),
+    'diez': rgb(54, 54, 54),
+);
+
+//mixins
+@mixin headings ($fSize, $fWeight, $align){
+    font-size: $fSize;
+    font-weight: $fWeight;
+    text-align: $align;
+}
+
+@mixin a($color, $tDeco, $fSize, $fWeight){
+    color: $color;
+    text-decoration: $tDeco;
+    font-size: $fSize;
+    font-weight: $fWeight;
+}

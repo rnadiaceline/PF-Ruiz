@@ -1,0 +1,24 @@
+nav{
+    background-color: map-get($map: $paleta, $key: uno);
+    a{
+        @include a(map-get($map: $paleta, $key: dos), none, 1em, 800);
+        &:active{
+            color: map-get($map: $paleta, $key: dos);
+        }
+    }
+    ul{
+        list-style: none;
+        li{
+            padding: 5px;
+            display: flex;
+            justify-content: flex-end;
+            a{
+                @include a(map-get($map: $paleta, $key: dos), none, .8em, 600);
+                &:active{
+                    color: map-get($map: $paleta, $key: tres);
+                }
+            }
+        }
+    }
+} 
+
