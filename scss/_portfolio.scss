@@ -1,10 +1,9 @@
 .portfolio{
     border-top: solid map-get($map: $paleta, $key: siete) 1px;
-}
-
-.portfolio__multimedia{
-    img{
-        padding: 3px 0;
-        width: 90vw;
+    &__multimedia{
+        img{
+            padding: 3px 0;
+            width: 90vw;
+        }
     }
 }

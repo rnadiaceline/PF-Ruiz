@@ -7,16 +7,16 @@
 
 //texts
 h1{
-    @include headings($h1Size, $fW700, $alignCenter);
+    @include headings($h1Size, 700, center);
     padding-top: 20px;
 }
 
 h2{
-    @include headings($h2Size, $fW600, $alignCenter);
+    @include headings($h2Size, 600, center);
 }
 
 h3{
-    @include headings($h3Size, $fW500, $alignCenter);
+    @include headings($h3Size, 500, center);
 }
 
 p{
