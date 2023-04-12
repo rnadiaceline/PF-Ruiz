@@ -2,9 +2,6 @@
     //commons
     h1, h2, h3, p{
         text-align: left;
-    }
-
-    h1, h2, h3{
         padding: 5px 45px;
     }
 
@@ -165,6 +162,12 @@
 }
 
 @media (min-width: 1200px){
+    
+    h1, h2, h3, p{
+        padding: 5px 75px;
+    }
+
+
     h1{
         font-size: 2em;
     }
@@ -198,6 +201,11 @@
                     }
                 }
             }
+        }
+    }
+    .footer{
+        &__logo{
+            padding-left: 70px;
         }
     }
     //index
@@ -241,6 +249,7 @@
     .section__proyectos{
         padding: 25px 150px;
     }
+    
     //contact
     .contact__input, .contact__button{
         width: 25vw;

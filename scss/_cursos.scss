@@ -4,4 +4,10 @@
 
 .listado{
     list-style: none;
+    a{
+        @include a(map-get($map: $paleta, $key: uno), none, 1em, 500);
+        &:hover{
+            color: map-get($map: $paleta, $key: tres);
+        }
+    }
 }

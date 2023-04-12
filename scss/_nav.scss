@@ -5,10 +5,6 @@ nav{
         &:active{
             color: map-get($map: $paleta, $key: dos);
         }
-        &:hover{
-            transform: scale(1.1);
-            transition: all 3s;
-        }
     }
     ul{
         list-style: none;

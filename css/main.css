@@ -28,7 +28,7 @@ h3, .h3 {
 p {
   font-size: 0.9em;
   text-align: center;
-  padding: 5px 45px;
+  padding: 5px 30px;
 }
 
 .text--align, .text--center {
@@ -61,10 +61,6 @@ nav a {
 }
 nav a:active {
   color: rgb(255, 255, 255);
-}
-nav a:hover {
-  transform: scale(1.1);
-  transition: all 3s;
 }
 nav ul {
   list-style: none;
@@ -287,6 +283,15 @@ video {
 .listado {
   list-style: none;
 }
+.listado a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+}
+.listado a:hover {
+  color: rgb(134, 18, 18);
+}
 
 .main__section--flex {
   display: flex;
@@ -350,8 +355,6 @@ video {
 @media (min-width: 768px) {
   h1, .h1, h2, .h2, h3, .h3, p {
     text-align: left;
-  }
-  h1, .h1, h2, .h2, h3, .h3 {
     padding: 5px 45px;
   }
   .text--align {
@@ -469,6 +472,9 @@ video {
   }
 }
 @media (min-width: 1200px) {
+  h1, .h1, h2, .h2, h3, .h3, p {
+    padding: 5px 75px;
+  }
   h1, .h1 {
     font-size: 2em;
   }
@@ -483,6 +489,9 @@ video {
   }
   footer ul li a:hover {
     color: rgb(204, 89, 89);
+  }
+  .footer__logo {
+    padding-left: 70px;
   }
   .header img {
     filter: grayscale(1);
