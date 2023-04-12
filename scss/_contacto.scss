@@ -3,14 +3,19 @@
     flex-direction: column;
     align-items: center;
 }
+
 .contact{
     &__input{
-    font-size: .8em;
-    text-align: center;
-    width: 80vw;
-    padding: 3px;
-    margin: 3px 0;
-    border: solid map-get($map: $paleta, $key: uno) 1px;
+        font-size: .8em;
+        text-align: center;
+        width: 80vw;
+        margin: 3px 0;
+        padding: 3px;
+        border: solid map-get($map: $paleta, $key: uno) 1px;
+    }
+    &__textarea{
+        @extend .contact__input;
+        height: 30vh;
     }
     &__button{
     background-color: map-get($map: $paleta, $key: uno);
@@ -32,10 +37,11 @@
     line-height: 1.5em;
     }
     &__icons{
-        &:not(.contact__text){
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &--margin{
+            margin-bottom: 20px;
         }
         div a{
             width: 10vw;

@@ -49,7 +49,7 @@ footer{
             justify-content: center;
             margin-top: 5px;
             a{
-                @include a(map-get($map: $paleta, $key: seis), none, .8, 600);
+                @include a(map-get($map: $paleta, $key: seis), none, .8em, 600);
                 &:active{
                     color: map-get($map: $paleta, $key: seis);
                 }
