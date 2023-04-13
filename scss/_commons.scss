@@ -42,3 +42,24 @@ p{
     width: 90vw;
     padding-bottom: 10px;
 }
+
+.error404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+        color: map-get($map: $paleta, $key: dos);
+        background-color: map-get($map: $paleta, $key: uno);
+        padding: 5px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 2px;
+        &:hover{
+            color: map-get($map: $paleta, $key: tres);
+        }
+    }
+}

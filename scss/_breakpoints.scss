@@ -19,6 +19,17 @@
         }
     }
 
+    .error404{
+        img{
+            width: 60%;
+        }
+        a{
+            font-size: 1.3em;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    }
+
     //nav
     nav{
         a{
@@ -173,6 +184,11 @@
     }
     .section__images--tamano{
         width: 40vw;
+    }
+    .error404{
+        img{
+            width: 25%;
+        }
     }
     //nav
     nav{
