@@ -144,6 +144,14 @@
             padding: 3px;
         }
     }
+    //cursos
+    .calendar{
+        iframe{
+            margin-left: 45px;
+            width: 70%;
+            height: 40vh;
+        }
+    }
     //contact
     .main__section--flex{
         flex-direction: row;
@@ -265,7 +273,14 @@
     .section__proyectos{
         padding: 25px 150px;
     }
-    
+    //cursos
+    .calendar{
+        iframe{
+            margin-left: 60px;
+            width: 50%;
+            height: 60vh;
+        }
+    }
     //contact
     .contact__input, .contact__button{
         width: 25vw;

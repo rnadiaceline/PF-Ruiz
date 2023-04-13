@@ -314,6 +314,11 @@ video {
   color: rgb(134, 18, 18);
 }
 
+.calendar iframe {
+  width: 100%;
+  height: 60vh;
+}
+
 .main__section--flex {
   display: flex;
   flex-direction: column;
@@ -480,6 +485,11 @@ video {
     width: 100%;
     padding: 3px;
   }
+  .calendar iframe {
+    margin-left: 45px;
+    width: 70%;
+    height: 40vh;
+  }
   .main__section--flex {
     flex-direction: row;
     flex-wrap: wrap;
@@ -551,6 +561,11 @@ video {
   }
   .section__proyectos {
     padding: 25px 150px;
+  }
+  .calendar iframe {
+    margin-left: 60px;
+    width: 50%;
+    height: 60vh;
   }
   .contact__input, .contact__textarea, .contact__button {
     width: 25vw;
