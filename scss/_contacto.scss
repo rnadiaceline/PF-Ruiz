@@ -18,10 +18,13 @@
         height: 30vh;
     }
     &__button{
+    text-decoration: none;
+    text-align: center;
     background-color: map-get($map: $paleta, $key: uno);
     color: map-get($map: $paleta, $key: dos);
+    display: block;
     width: 80vw;
-    height: 30px;
+    padding: 5px 0;
     font-size: .8em;
     font-weight: 600;
     border: none;

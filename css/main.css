@@ -130,10 +130,13 @@ nav ul li a:active {
   border: solid rgb(0, 0, 0) 1px;
 }
 .newsletter__button {
+  text-align: center;
+  text-decoration: none;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   width: 60vw;
-  height: 30px;
+  padding: 5px 0;
+  margin-top: 3px;
   font-size: 0.8em;
   font-weight: 600;
   border: none;
@@ -159,6 +162,9 @@ footer div ul li a {
   text-decoration: none;
   font-size: 0.8em;
   font-weight: 600;
+}
+footer div ul li a:hover {
+  color: rgb(204, 89, 89);
 }
 footer div ul li a:active {
   color: rgb(204, 89, 89);
@@ -279,12 +285,17 @@ video {
 }
 
 .cursos__button {
+  text-decoration: none;
   background-color: rgb(54, 54, 54);
   color: rgb(255, 255, 255);
   margin-left: 20px;
   margin-bottom: 20px;
   padding: 2px 5px;
   border: none;
+}
+
+.acordeon__button--margin {
+  margin-bottom: 3vw;
 }
 
 .portfolio {
@@ -319,6 +330,10 @@ video {
   height: 60vh;
 }
 
+.link__labs--color {
+  color: black;
+}
+
 .main__section--flex {
   display: flex;
   flex-direction: column;
@@ -337,10 +352,13 @@ video {
   height: 30vh;
 }
 .contact__button {
+  text-decoration: none;
+  text-align: center;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  display: block;
   width: 80vw;
-  height: 30px;
+  padding: 5px 0;
   font-size: 0.8em;
   font-weight: 600;
   border: none;
@@ -478,6 +496,9 @@ video {
   .four {
     grid-area: four;
   }
+  .acordeon__button--margin {
+    margin-left: 6vw;
+  }
   .portfolio__multimedia {
     width: 30vw;
   }
@@ -562,10 +583,19 @@ video {
   .section__proyectos {
     padding: 25px 150px;
   }
+  .acordeon__cursos--margin {
+    margin: 0 5vw;
+  }
+  .acordeon__button--margin {
+    margin-left: 9vw;
+  }
   .calendar iframe {
     margin-left: 60px;
     width: 50%;
     height: 60vh;
+  }
+  .about__lista--margin {
+    margin: 0 5vw;
   }
   .contact__input, .contact__textarea, .contact__button {
     width: 25vw;
@@ -7214,62 +7244,6 @@ textarea.form-control-lg {
 .text-bg-dark {
   color: #fff !important;
   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
-}
-
-.link-primary {
-  color: #0d6efd !important;
-}
-.link-primary:hover, .link-primary:focus {
-  color: #0a58ca !important;
-}
-
-.link-secondary {
-  color: #6c757d !important;
-}
-.link-secondary:hover, .link-secondary:focus {
-  color: #565e64 !important;
-}
-
-.link-success {
-  color: #198754 !important;
-}
-.link-success:hover, .link-success:focus {
-  color: #146c43 !important;
-}
-
-.link-info {
-  color: #0dcaf0 !important;
-}
-.link-info:hover, .link-info:focus {
-  color: #3dd5f3 !important;
-}
-
-.link-warning {
-  color: #ffc107 !important;
-}
-.link-warning:hover, .link-warning:focus {
-  color: #ffcd39 !important;
-}
-
-.link-danger {
-  color: #dc3545 !important;
-}
-.link-danger:hover, .link-danger:focus {
-  color: #b02a37 !important;
-}
-
-.link-light {
-  color: #f8f9fa !important;
-}
-.link-light:hover, .link-light:focus {
-  color: #f9fafb !important;
-}
-
-.link-dark {
-  color: #212529 !important;
-}
-.link-dark:hover, .link-dark:focus {
-  color: #1a1e21 !important;
 }
 
 .ratio {

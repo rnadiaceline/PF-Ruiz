@@ -136,6 +136,10 @@
         .four{
             grid-area: four;
         }
+
+    .acordeon__button--margin{
+        margin-left: 6vw;
+    }
     //portfolio
     .portfolio__multimedia{
         width: 30vw;
@@ -273,6 +277,14 @@
     .section__proyectos{
         padding: 25px 150px;
     }
+
+    .acordeon__cursos--margin{
+        margin: 0 5vw;
+    }
+
+    .acordeon__button--margin{
+        margin-left: 9vw;
+    }
     //cursos
     .calendar{
         iframe{
@@ -280,6 +292,10 @@
             width: 50%;
             height: 60vh;
         }
+    }
+    //about
+    .about__lista--margin{
+        margin: 0 5vw;
     }
     //contact
     .contact__input, .contact__button{

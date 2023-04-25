@@ -79,10 +79,15 @@ video{
 }
 
 .cursos__button{
+    text-decoration: none;
     background-color: map-get($map: $paleta, $key: diez);
     color: map-get($map: $paleta, $key: dos);
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 2px 5px;
     border: none;
+}
+
+.acordeon__button--margin{
+    margin-bottom: 3vw;
 }
