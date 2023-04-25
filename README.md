@@ -59,7 +59,7 @@ En cuanto a las variables, fueron usadas para la fuente y para el tamaño de los
 
 <h2 id="seo">SEO</h2>
 
-La parte de SEO fue bastante ligera, ya que fui bastante al pie de la letra en cuanto a lo que es semántica. Luego de esta clase, generé la página de error 404 con una imagen, un texto, y un botón que retorna a la página de inicio, dicha página se vincula en cada newsletter y en el formulario de contacto, además de los cursos mencionados anteriormente. Por último, utilicé el meta description, siendo uno personalizado para cada página, y meta author.
+La parte de SEO fue bastante ligera, ya que fui bastante al pie de la letra en cuanto a lo que es semántica. Luego de esta clase, generé la página de error 404 con una imagen, un texto, y un botón que retorna a la página de inicio, dicha página se vincula en cada newsletter y en el formulario de contacto, además de los cursos mencionados anteriormente. También completé el alt de las imágenes, acá me lucí 😎 Por último, utilicé el meta description, siendo uno personalizado para cada página, y meta author.
 
 <h2 id="aclaraciones">Algunas aclaraciones</h2>
 
