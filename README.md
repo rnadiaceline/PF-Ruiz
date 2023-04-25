@@ -70,7 +70,8 @@ La parte de SEO fue bastante ligera, ya que fui bastante al pie de la letra en c
 - La parte del trabajo con la que más me demoré y me frustré fue con la búsqueda de imágenes, porque buscaba que coincidieran en cuanto a colores. Además, en un principio las había descargado en una resolución muy alta, así que las 36 fotos del portfolio pesaban alrededor de 4MB, y antes de la clase en la que nos presentaron a *photopea* las achiqué una por una con otra herramienta online. Adiós mi espalda jajaja  
 - Con respecto a los acordeones aplicados en la totalidad del proyecto, tuve dificultades para agregar más de tres solapas, ya que al copiar el código y cambiar el contenido, se abrían y cerraban ambas solapas en simultáneo, pero quemando mis neuronas me di cuenta de que solo necesitaba cambiar los IDs 😀 También me volví un poco loca tratando de cambiar los colores originales del acordeón y  la nav, ya que al ser de BS, cuando hacía click en un vínculo se ponía azul. Sin embargo, pude arreglarlo metiendo mano en el SASS de bootstrap, modificando el valor de sus variables. 
 
-<h2 id="agradecimientos">Agradecimientos</h2>
+<h2 id="agradecimientos">Agradecimientos</h2>  
+
 - Laura, gracias por hacer las clases tan dinámicas y alegres con esa linda energía.   
 - Macarena, gracias por tu atención y compromiso para con los alumnos, yo nunca commiteé antes de recibir mis correcciones!!! jajaja   
 - Chat GPT, gracias por hacerme la vida más fácil jajajaja  
