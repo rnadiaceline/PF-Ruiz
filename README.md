@@ -71,8 +71,8 @@ La parte de SEO fue bastante ligera, ya que fui bastante al pie de la letra en c
 - Con respecto a los acordeones aplicados en la totalidad del proyecto, tuve dificultades para agregar más de tres solapas, ya que al copiar el código y cambiar el contenido, se abrían y cerraban ambas solapas en simultáneo, pero quemando mis neuronas me di cuenta de que solo necesitaba cambiar los IDs 😀 También me volví un poco loca tratando de cambiar los colores originales del acordeón y  la nav, ya que al ser de BS, cuando hacía click en un vínculo se ponía azul. Sin embargo, pude arreglarlo metiendo mano en el SASS de bootstrap, modificando el valor de sus variables. 
 
 <h2 id="agradecimientos">Agradecimientos</h2>
-- Laura, gracias por hacer las clases tan dinámicas y alegres con esa linda energía.  
-- Macarena, gracias por tu atención y compromiso para con los alumnos, yo nunca commiteé antes de recibir mis correcciones!!! jajaja
+- Laura, gracias por hacer las clases tan dinámicas y alegres con esa linda energía.   
+- Macarena, gracias por tu atención y compromiso para con los alumnos, yo nunca commiteé antes de recibir mis correcciones!!! jajaja   
 - Chat GPT, gracias por hacerme la vida más fácil jajajaja  
   
 Gracias por todo, quedé totalmente motivada a seguir aprendiendo sobre este mundo nuevo para mí <3 
